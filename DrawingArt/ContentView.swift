@@ -25,6 +25,7 @@ struct ContentView: View {
                         Slider(value: $petalWidth, in: 0...100)
                             .padding(.horizontal)
         }
+        .padding()
     }
 }
 
