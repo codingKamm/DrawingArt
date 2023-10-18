@@ -8,28 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var petalOffset = -20.0
+    @State private var petalWidth = 100.0
+    
     var body: some View {
-        HStack{
-            Triangle()
-                .stroke(.red, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
-                .frame(width: 300, height: 300)
-            
-            Circle()
-                       .stroke(.blue, lineWidth: 40)
-            VStack {
-                Arc(startAngle: .degrees(0), endAngle: .degrees(110), clockwise: true)
-                    .stroke(.blue, lineWidth: 10)
-                    .frame(width: 300, height: 300)
-                
-                Path { path in
-                    path.move(to: CGPoint(x: 200, y: 100))
-                    path.addLine(to: CGPoint(x: 100, y: 300))
-                    path.addLine(to: CGPoint(x: 300, y: 300))
-                    path.addLine(to: CGPoint(x: 200, y: 100))
-                }
-                .stroke(.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
-            }
-            .padding()
+        VStack{
+            Flower(petalOffset: petalOffset, petalWidth: petalWidth)
+//                            .stroke(.red, lineWidth: 1)
+                .fill(.green, style: FillStyle(eoFill: true))
+
+                        Text("Offset")
+                        Slider(value: $petalOffset, in: -40...40)
+                            .padding([.horizontal, .bottom])
+
+                        Text("Width")
+                        Slider(value: $petalWidth, in: 0...100)
+                            .padding(.horizontal)
         }
     }
 }
