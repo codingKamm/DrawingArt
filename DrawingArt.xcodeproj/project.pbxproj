@@ -10,6 +10,7 @@
 		695DC5952ADDC705007FC322 /* Drawing Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC5942ADDC705007FC322 /* Drawing Model.swift */; };
 		695DC5992AE01BE1007FC322 /* PracticeShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC5982AE01BE1007FC322 /* PracticeShapeView.swift */; };
 		695DC59D2AE02955007FC322 /* BorderFillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC59C2AE02955007FC322 /* BorderFillView.swift */; };
+		695DC59F2AE0B1DD007FC322 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC59E2AE0B1DD007FC322 /* ColorCyclingCircle.swift */; };
 		6966BD072AC738AE0027ED54 /* DrawingArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966BD062AC738AE0027ED54 /* DrawingArtApp.swift */; };
 		6966BD092AC738AE0027ED54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966BD082AC738AE0027ED54 /* ContentView.swift */; };
 		6966BD0B2AC738AE0027ED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6966BD0A2AC738AE0027ED54 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		695DC5942ADDC705007FC322 /* Drawing Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Drawing Model.swift"; sourceTree = "<group>"; };
 		695DC5982AE01BE1007FC322 /* PracticeShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeShapeView.swift; sourceTree = "<group>"; };
 		695DC59C2AE02955007FC322 /* BorderFillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderFillView.swift; sourceTree = "<group>"; };
+		695DC59E2AE0B1DD007FC322 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 		6966BD032AC738AE0027ED54 /* DrawingArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966BD062AC738AE0027ED54 /* DrawingArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingArtApp.swift; sourceTree = "<group>"; };
 		6966BD082AC738AE0027ED54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		6966BD052AC738AE0027ED54 /* DrawingArt */ = {
 			isa = PBXGroup;
 			children = (
+				695DC59E2AE0B1DD007FC322 /* ColorCyclingCircle.swift */,
 				6966BD062AC738AE0027ED54 /* DrawingArtApp.swift */,
 				695DC59C2AE02955007FC322 /* BorderFillView.swift */,
 				6966BD082AC738AE0027ED54 /* ContentView.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				695DC5952ADDC705007FC322 /* Drawing Model.swift in Sources */,
+				695DC59F2AE0B1DD007FC322 /* ColorCyclingCircle.swift in Sources */,
 				695DC5992AE01BE1007FC322 /* PracticeShapeView.swift in Sources */,
 				6966BD092AC738AE0027ED54 /* ContentView.swift in Sources */,
 				6966BD072AC738AE0027ED54 /* DrawingArtApp.swift in Sources */,
