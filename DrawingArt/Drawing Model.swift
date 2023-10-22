@@ -79,3 +79,24 @@ struct Flower: Shape {
         return path
     }
 }
+
+struct Trapazoid: Shape {
+    var insertAmount: Double
+    var animatableData: Double {
+        get {insertAmount}
+        set {insertAmount = newValue}
+    }
+    
+    
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        path.move(to: CGPoint(x: 0, y: rect.maxY))
+        path.addLine(to: CGPoint(x: insertAmount, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX - insertAmount, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+        path.addLine(to: CGPoint(x: 0, y: rect.maxY))
+        
+        return path
+    }
+}
