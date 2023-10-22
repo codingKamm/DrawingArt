@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct TrapazoidView: View {
+struct TrapezoidView: View {
     @State private var insertAmount = 50.0
     
     var body: some View {
         VStack{
-            Trapazoid(insertAmount: insertAmount)
+            Trapezoid(insertAmount: insertAmount)
                 .frame(width: 300, height: 200)
                 .onTapGesture {
                     withAnimation{
@@ -24,5 +24,5 @@ struct TrapazoidView: View {
 }
 
 #Preview {
-    TrapazoidView()
+    TrapezoidView()
 }

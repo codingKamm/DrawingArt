@@ -80,7 +80,7 @@ struct Flower: Shape {
     }
 }
 
-struct Trapazoid: Shape {
+struct Trapezoid: Shape {
     var insertAmount: Double
     var animatableData: Double {
         get {insertAmount}
