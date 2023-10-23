@@ -15,6 +15,7 @@
 		695DC5A32AE5B98B007FC322 /* ColorBlendingPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC5A22AE5B98B007FC322 /* ColorBlendingPracticeView.swift */; };
 		695DC5A52AE5C4B7007FC322 /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC5A42AE5C4B7007FC322 /* TrapezoidView.swift */; };
 		695DC5A72AE6E50F007FC322 /* CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC5A62AE6E50F007FC322 /* CheckerboardView.swift */; };
+		695DC5A92AE6FC81007FC322 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DC5A82AE6FC81007FC322 /* SpirographView.swift */; };
 		6966BD072AC738AE0027ED54 /* DrawingArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966BD062AC738AE0027ED54 /* DrawingArtApp.swift */; };
 		6966BD092AC738AE0027ED54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966BD082AC738AE0027ED54 /* ContentView.swift */; };
 		6966BD0B2AC738AE0027ED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6966BD0A2AC738AE0027ED54 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		695DC5A22AE5B98B007FC322 /* ColorBlendingPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlendingPracticeView.swift; sourceTree = "<group>"; };
 		695DC5A42AE5C4B7007FC322 /* TrapezoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidView.swift; sourceTree = "<group>"; };
 		695DC5A62AE6E50F007FC322 /* CheckerboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerboardView.swift; sourceTree = "<group>"; };
+		695DC5A82AE6FC81007FC322 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		6966BD032AC738AE0027ED54 /* DrawingArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966BD062AC738AE0027ED54 /* DrawingArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingArtApp.swift; sourceTree = "<group>"; };
 		6966BD082AC738AE0027ED54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				695DC5A02AE2E30D007FC322 /* ColorBlendingView.swift */,
 				695DC5A22AE5B98B007FC322 /* ColorBlendingPracticeView.swift */,
 				695DC5942ADDC705007FC322 /* Drawing Model.swift */,
+				695DC5A82AE6FC81007FC322 /* SpirographView.swift */,
 				695DC5A62AE6E50F007FC322 /* CheckerboardView.swift */,
 				695DC5A42AE5C4B7007FC322 /* TrapezoidView.swift */,
 				695DC5982AE01BE1007FC322 /* PracticeShapeView.swift */,
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695DC5A92AE6FC81007FC322 /* SpirographView.swift in Sources */,
 				695DC5952ADDC705007FC322 /* Drawing Model.swift in Sources */,
 				695DC59F2AE0B1DD007FC322 /* ColorCyclingCircle.swift in Sources */,
 				695DC5A32AE5B98B007FC322 /* ColorBlendingPracticeView.swift in Sources */,
