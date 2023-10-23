@@ -100,3 +100,40 @@ struct Trapezoid: Shape {
         return path
     }
 }
+
+struct CheckerBoard: Shape {
+    var rows: Int
+    var columns: Int
+    
+    var animatableData: AnimatablePair<Double, Double> {
+        get {AnimatablePair(Double(rows), Double(columns))}
+        set {
+            rows = Int(newValue.first)
+            columns = Int(newValue.second)
+            }
+    }
+        
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        //figures out what the size of each row and column needs to be
+        let rowSize = rect.height / Double(rows)
+        let columnSize = rect.width / Double(columns)
+        
+        //loops over all rows, creating alt. color squares
+        for row in 0..<rows {
+            for column in 0..<columns {
+                if (row + column).isMultiple(of: 2) {
+                    //this square should be colored; add rectangle here
+                    let startX = columnSize * Double(column)
+                    let startY = rowSize * Double(row)
+                    
+                    let rect = CGRect(x: startX, y: startY, width: columnSize, height: rowSize)
+                    path.addRect(rect)
+                }
+            }
+        }
+        return path
+    }
+    
+}
